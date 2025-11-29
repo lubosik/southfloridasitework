@@ -1,5 +1,3 @@
-'use client'
-
 import StaticLink from './StaticLink'
 import Image from 'next/image'
 import { getServiceImagePath } from '@/lib/image-mapping'

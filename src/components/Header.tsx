@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useEffect, useRef } from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 import { siteConfig } from '@/lib/site-config'
 import styles from './Header.module.css'
@@ -90,7 +89,7 @@ export default function Header() {
       role="banner"
     >
       <div className={styles.container}>
-        <Link href="/" className={styles.logo} aria-label="South Florida Site Work Home">
+        <a href="/" className={styles.logo} aria-label="South Florida Site Work Home">
           <Image
             src="/images/logo.png"
             alt="South Florida Site Work"
@@ -99,15 +98,15 @@ export default function Header() {
             className={styles.logoImage}
             priority
           />
-        </Link>
+        </a>
 
         <nav className={styles.nav} aria-label="Main navigation">
           <ul className={styles.navList}>
             {navLinks.map((link) => (
               <li key={link.href}>
-                <Link href={link.href} className={styles.navLink}>
+                <a href={link.href} className={styles.navLink}>
                   {link.label}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
@@ -148,14 +147,14 @@ export default function Header() {
           <ul className={styles.mobileNavList}>
             {navLinks.map((link, index) => (
               <li key={link.href}>
-                <Link
+                <a
                   href={link.href}
                   className={styles.mobileNavLink}
                   onClick={() => setIsMobileMenuOpen(false)}
                   ref={index === 0 ? firstFocusableRef : undefined}
                 >
                   {link.label}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>

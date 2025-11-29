@@ -1,6 +1,3 @@
-'use client'
-
-import Link from 'next/link'
 import { ReactNode } from 'react'
 
 interface StaticLinkProps {
@@ -8,14 +5,15 @@ interface StaticLinkProps {
   className?: string
   children: ReactNode
   onClick?: () => void
-  prefetch?: boolean
 }
 
-export default function StaticLink({ href, className, children, onClick, prefetch = false }: StaticLinkProps) {
+// For static export, use regular anchor tags instead of Next.js Link
+// to avoid serialization issues with event handlers
+export default function StaticLink({ href, className, children, onClick }: StaticLinkProps) {
   return (
-    <Link href={href} className={className} onClick={onClick} prefetch={prefetch}>
+    <a href={href} className={className} onClick={onClick}>
       {children}
-    </Link>
+    </a>
   )
 }
 
