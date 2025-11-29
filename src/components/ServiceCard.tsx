@@ -1,4 +1,6 @@
-import Link from 'next/link'
+'use client'
+
+import StaticLink from './StaticLink'
 import Image from 'next/image'
 import { getServiceImagePath } from '@/lib/image-mapping'
 import styles from './ServiceCard.module.css'
@@ -14,7 +16,7 @@ export default function ServiceCard({ name, slug, description, imageQuery }: Ser
   const imageUrl = getServiceImagePath(slug)
 
   return (
-    <Link href={`/services/${slug}/`} className={styles.card}>
+    <StaticLink href={`/services/${slug}/`} className={styles.card}>
       <div className={styles.imageWrapper}>
         <Image
           src={imageUrl}
@@ -30,7 +32,7 @@ export default function ServiceCard({ name, slug, description, imageQuery }: Ser
         <p className={styles.description}>{description}</p>
         <span className={styles.link}>Learn More →</span>
       </div>
-    </Link>
+    </StaticLink>
   )
 }
 
