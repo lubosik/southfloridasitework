@@ -1,0 +1,39 @@
+{
+  "page": "land-clearing-lot-preparation",
+  "primaryKeyword": "land clearing lot preparation South Florida",
+  "supportingKeywords": [
+    "land clearing Miami",
+    "vegetation clearing",
+    "stump removal",
+    "grubbing",
+    "lot preparation",
+    "site clearing",
+    "tree removal",
+    "debris hauling"
+  ],
+  "geoModifiers": [
+    "Miami",
+    "Miami-Dade County",
+    "Fort Lauderdale",
+    "Broward County",
+    "West Palm Beach",
+    "Palm Beach County",
+    "South Florida"
+  ],
+  "intentQuestions": [
+    "What is land clearing and lot preparation?",
+    "How much does land clearing cost?",
+    "Do I need permits for land clearing?",
+    "What is grubbing?",
+    "How to prepare a lot for construction?",
+    "What equipment is used for land clearing?"
+  ],
+  "serpFeatures": {
+    "localPack": true,
+    "featuredSnippet": true,
+    "peopleAlsoAsk": true
+  },
+  "targetTitle": "Land Clearing & Lot Preparation | South Florida",
+  "targetDescription": "Professional land clearing and lot preparation services across South Florida. Vegetation clearing, stump removal, grubbing, and site cleanup."
+}
+

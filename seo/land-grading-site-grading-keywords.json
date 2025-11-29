@@ -1,0 +1,40 @@
+{
+  "page": "land-grading-site-grading",
+  "primaryKeyword": "land grading site grading South Florida",
+  "supportingKeywords": [
+    "land grading Miami",
+    "site grading Fort Lauderdale",
+    "building pad grading",
+    "parking lot grading",
+    "road grading",
+    "rough grading",
+    "final grading",
+    "slope stabilization",
+    "regrading for drainage"
+  ],
+  "geoModifiers": [
+    "Miami",
+    "Miami-Dade County",
+    "Fort Lauderdale",
+    "Broward County",
+    "West Palm Beach",
+    "Palm Beach County",
+    "South Florida"
+  ],
+  "intentQuestions": [
+    "What is land grading and site grading?",
+    "How much does land grading cost in South Florida?",
+    "What is building pad grading?",
+    "Do I need permits for land grading?",
+    "What is the difference between rough and final grading?",
+    "How to fix drainage problems with grading?"
+  ],
+  "serpFeatures": {
+    "localPack": true,
+    "featuredSnippet": true,
+    "peopleAlsoAsk": true
+  },
+  "targetTitle": "Land Grading & Site Grading | South Florida",
+  "targetDescription": "Professional land grading and site grading services across South Florida. Building pad grading, parking lot grading, road grading, and drainage solutions."
+}
+

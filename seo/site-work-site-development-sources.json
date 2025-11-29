@@ -1,0 +1,44 @@
+{
+  "page": "site-work-site-development",
+  "sources": [
+    {
+      "type": "regulatory",
+      "name": "Florida Building Code 2025",
+      "reference": "FBC 2025 - Site work and site development requirements",
+      "note": "Site development must comply with Florida Building Code requirements for grading, drainage, and utility installation"
+    },
+    {
+      "type": "regulatory",
+      "name": "South Florida Water Management District",
+      "reference": "SFWMD - Environmental Resource Permits for site development",
+      "note": "Site development projects may require SFWMD permits for land disturbance and stormwater management"
+    },
+    {
+      "type": "regulatory",
+      "name": "Miami-Dade County Building Department",
+      "reference": "Miami-Dade County - Site development permits and inspections",
+      "note": "Site development in Miami-Dade requires proper permits and inspections through the Building Department"
+    },
+    {
+      "type": "regulatory",
+      "name": "Broward County Building Code",
+      "reference": "Broward County - Site development standards and requirements",
+      "note": "Broward County has specific requirements for site development including drainage and grading"
+    },
+    {
+      "type": "regulatory",
+      "name": "Palm Beach County Building Department",
+      "reference": "Palm Beach County - Site work permits and development standards",
+      "note": "Palm Beach County requires permits for site development work including grading and drainage"
+    }
+  ],
+  "keyPoints": [
+    "Site development includes clearing, grading, excavation, drainage, and utility preparation",
+    "2025 Florida Building Code governs site development requirements",
+    "Local permits required from county building departments",
+    "SFWMD permits may be required for land disturbance",
+    "Typical site development projects start around $25,000",
+    "Complete packages include all phases from clearing to building pad preparation"
+  ]
+}
+

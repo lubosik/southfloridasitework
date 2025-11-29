@@ -1,0 +1,39 @@
+{
+  "page": "services-index",
+  "primaryKeyword": "site work services South Florida",
+  "supportingKeywords": [
+    "earthwork services Miami",
+    "site work contractors South Florida",
+    "land grading services Fort Lauderdale",
+    "excavation services West Palm Beach",
+    "site development services",
+    "complete site work",
+    "commercial site work",
+    "residential site work",
+    "drainage services South Florida",
+    "land clearing services"
+  ],
+  "geoModifiers": [
+    "South Florida",
+    "Miami",
+    "Fort Lauderdale",
+    "West Palm Beach",
+    "Florida Keys"
+  ],
+  "intentQuestions": [
+    "What site work services are available in South Florida?",
+    "What does site work include?",
+    "What is earthwork and site development?",
+    "What services do site work contractors provide?",
+    "What is included in complete site work?",
+    "What are the different types of site work?"
+  ],
+  "serpFeatures": {
+    "localPack": true,
+    "featuredSnippet": true,
+    "peopleAlsoAsk": true
+  },
+  "targetTitle": "Site Work Services | South Florida Earthwork & Grading",
+  "targetDescription": "Complete site work and earthwork services across South Florida. Site development, land grading, excavation, drainage, and land clearing for commercial and residential projects."
+}
+

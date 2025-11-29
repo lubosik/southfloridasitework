@@ -1,0 +1,39 @@
+{
+  "page": "excavation-earthwork",
+  "primaryKeyword": "excavation earthwork South Florida",
+  "supportingKeywords": [
+    "excavation services Miami",
+    "earthwork contractors Fort Lauderdale",
+    "mass excavation",
+    "cut and fill",
+    "utility trench excavation",
+    "foundation excavation",
+    "retention pond excavation",
+    "fill import export"
+  ],
+  "geoModifiers": [
+    "Miami",
+    "Miami-Dade County",
+    "Fort Lauderdale",
+    "Broward County",
+    "West Palm Beach",
+    "Palm Beach County",
+    "South Florida"
+  ],
+  "intentQuestions": [
+    "What is excavation and earthwork?",
+    "How much does excavation cost in South Florida?",
+    "What is mass excavation?",
+    "What is cut and fill in construction?",
+    "Do I need permits for excavation?",
+    "What equipment is used for earthwork?"
+  ],
+  "serpFeatures": {
+    "localPack": true,
+    "featuredSnippet": true,
+    "peopleAlsoAsk": true
+  },
+  "targetTitle": "Excavation & Earthwork | South Florida",
+  "targetDescription": "Professional excavation and earthwork services across South Florida. Mass excavation, cut and fill, utility trenches, retention ponds, and fill import/export."
+}
+

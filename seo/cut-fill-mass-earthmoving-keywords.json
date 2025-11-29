@@ -1,0 +1,37 @@
+{
+  "page": "cut-fill-mass-earthmoving",
+  "primaryKeyword": "cut and fill South Florida",
+  "supportingKeywords": [
+    "mass earthmoving",
+    "site balancing",
+    "cut and fill operations",
+    "earthmoving services",
+    "mass grading",
+    "cut fill earthwork",
+    "site balancing operations"
+  ],
+  "geoModifiers": [
+    "Miami",
+    "Miami-Dade County",
+    "Fort Lauderdale",
+    "Broward County",
+    "West Palm Beach",
+    "Palm Beach County",
+    "South Florida"
+  ],
+  "intentQuestions": [
+    "What is cut and fill in construction?",
+    "How much does cut and fill cost?",
+    "What is mass earthmoving?",
+    "How does site balancing work?",
+    "What equipment is used for cut and fill?"
+  ],
+  "serpFeatures": {
+    "localPack": true,
+    "featuredSnippet": true,
+    "peopleAlsoAsk": true
+  },
+  "targetTitle": "Cut and Fill and Mass Earthmoving | South Florida",
+  "targetDescription": "Large-scale earthmoving and cut/fill operations for site balancing across South Florida. Mass earthmoving services for commercial and residential projects."
+}
+

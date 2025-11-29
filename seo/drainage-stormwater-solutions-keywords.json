@@ -1,0 +1,39 @@
+{
+  "page": "drainage-stormwater-solutions",
+  "primaryKeyword": "drainage stormwater solutions South Florida",
+  "supportingKeywords": [
+    "drainage solutions Miami",
+    "stormwater management Fort Lauderdale",
+    "French drains",
+    "retention ponds",
+    "stormwater inlets",
+    "drainage problems",
+    "flood zone drainage",
+    "coastal property drainage"
+  ],
+  "geoModifiers": [
+    "Miami",
+    "Miami-Dade County",
+    "Fort Lauderdale",
+    "Broward County",
+    "West Palm Beach",
+    "Palm Beach County",
+    "South Florida"
+  ],
+  "intentQuestions": [
+    "How to fix drainage problems in South Florida?",
+    "What are French drains and how do they work?",
+    "Do I need permits for drainage work?",
+    "How much does drainage installation cost?",
+    "What is stormwater management?",
+    "How to prevent flooding on my property?"
+  ],
+  "serpFeatures": {
+    "localPack": true,
+    "featuredSnippet": true,
+    "peopleAlsoAsk": true
+  },
+  "targetTitle": "Drainage & Stormwater Solutions | South Florida",
+  "targetDescription": "Professional drainage and stormwater solutions across South Florida. French drains, retention ponds, stormwater systems, and flood zone drainage."
+}
+

@@ -1,0 +1,43 @@
+{
+  "page": "homepage",
+  "sources": [
+    {
+      "type": "regulatory",
+      "name": "Florida Building Code 2025",
+      "reference": "FBC 2025 - Site work and grading requirements",
+      "note": "As of July 1, 2025, residential construction permits have state-imposed timelines affecting site work approvals"
+    },
+    {
+      "type": "regulatory",
+      "name": "Florida Contractor Licensing",
+      "reference": "F.S. 489.113 - Certified contractors may perform clearing, grubbing, grading, and excavation",
+      "note": "Site work requires certified building contractors or certified residential contractors"
+    },
+    {
+      "type": "regulatory",
+      "name": "South Florida Water Management District",
+      "reference": "SFWMD - Environmental compliance for grading and land disturbance",
+      "note": "Contact SFWMD directly for current 2025 requirements on permits and environmental compliance"
+    },
+    {
+      "type": "regulatory",
+      "name": "Miami-Dade County DERM",
+      "reference": "Department of Environmental Resources Management - Stormwater management requirements",
+      "note": "Contact Miami-Dade County DERM for local stormwater management and grading permit requirements"
+    },
+    {
+      "type": "regulatory",
+      "name": "Miami-Dade RER",
+      "reference": "Regulatory and Environmental Resources - Local grading and fill permits",
+      "note": "Contact RER for current 2025 requirements on erosion control and surface water regulations"
+    }
+  ],
+  "keyPoints": [
+    "Florida Building Code governs site work, clearing, grading, and excavation",
+    "2025 permitting changes include state-imposed timelines for residential construction",
+    "Certified contractors required for site work projects",
+    "Local regulations vary by county (Miami-Dade, Broward, Palm Beach, Monroe)",
+    "Environmental compliance required through SFWMD and county agencies"
+  ]
+}
+

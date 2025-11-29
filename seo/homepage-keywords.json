@@ -1,0 +1,44 @@
+{
+  "page": "homepage",
+  "primaryKeyword": "South Florida site work",
+  "supportingKeywords": [
+    "site work South Florida",
+    "earthwork Miami",
+    "land grading Fort Lauderdale",
+    "excavation West Palm Beach",
+    "site development South Florida",
+    "commercial site work Miami",
+    "custom home site work",
+    "land grading contractors",
+    "drainage solutions South Florida",
+    "land clearing Miami-Dade"
+  ],
+  "geoModifiers": [
+    "Miami",
+    "Miami-Dade County",
+    "Fort Lauderdale",
+    "Broward County",
+    "West Palm Beach",
+    "Palm Beach County",
+    "Florida Keys",
+    "Monroe County",
+    "South Florida"
+  ],
+  "intentQuestions": [
+    "Who does site work in South Florida?",
+    "What is site work and earthwork?",
+    "How much does land grading cost in Miami?",
+    "Where to find site work contractors in South Florida?",
+    "What services do site work companies provide?",
+    "How to prepare land for construction in South Florida?"
+  ],
+  "serpFeatures": {
+    "localPack": true,
+    "featuredSnippet": true,
+    "peopleAlsoAsk": true,
+    "relatedSearches": true
+  },
+  "targetTitle": "South Florida Site Work | Earthwork & Land Grading",
+  "targetDescription": "Professional site work, earthwork and land grading services across Miami-Dade, Broward, Palm Beach and Monroe Counties. Licensed contractors for commercial and custom home projects starting at $25,000."
+}
+

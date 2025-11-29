@@ -1,0 +1,143 @@
+.footer {
+  background-color: var(--color-primary-900);
+  color: var(--color-white);
+  padding: var(--spacing-16) 0 var(--spacing-8);
+  margin-top: var(--spacing-20);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-4);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 var(--spacing-6);
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-8);
+  margin-bottom: var(--spacing-12);
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-10);
+  }
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: var(--spacing-4);
+}
+
+.subheading {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: var(--spacing-4);
+}
+
+.description {
+  color: var(--color-grey-300);
+  margin-bottom: var(--spacing-6);
+  line-height: 1.6;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+.phone {
+  color: var(--color-accent-500);
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.phone:hover {
+  color: var(--color-accent-400);
+}
+
+.email {
+  color: var(--color-grey-300);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.email:hover {
+  color: var(--color-white);
+}
+
+.linkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+.link {
+  color: var(--color-grey-300);
+  text-decoration: none;
+  font-size: var(--font-size-base);
+  transition: color 0.2s ease;
+  display: inline-block;
+}
+
+.link:hover {
+  color: var(--color-accent-500);
+}
+
+.disclaimer {
+  padding-top: var(--spacing-8);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: var(--spacing-6);
+}
+
+.disclaimerText {
+  color: var(--color-grey-400);
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  max-width: 800px;
+}
+
+.disclaimerText strong {
+  color: var(--color-white);
+  font-weight: 600;
+}
+
+.copyright {
+  padding-top: var(--spacing-6);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.copyright p {
+  color: var(--color-grey-400);
+  font-size: var(--font-size-sm);
+  margin: 0;
+}
+
