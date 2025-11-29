@@ -10,8 +10,8 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const mobileMenuRef = useRef<HTMLDivElement>(null)
-  const firstFocusableRef = useRef<HTMLElement>(null)
-  const lastFocusableRef = useRef<HTMLElement>(null)
+  const firstFocusableRef = useRef<HTMLAnchorElement>(null)
+  const lastFocusableRef = useRef<HTMLAnchorElement>(null)
 
   useEffect(() => {
     const handleScroll = () => {
