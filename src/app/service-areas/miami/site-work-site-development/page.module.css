@@ -1,0 +1,206 @@
+.section {
+  padding: var(--spacing-12) 0;
+}
+
+.sectionAlt {
+  background-color: var(--color-grey-50);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-6);
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  color: var(--color-primary-900);
+  margin-bottom: var(--spacing-6);
+  line-height: 1.2;
+}
+
+.intro {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: var(--color-grey-700);
+  margin-bottom: var(--spacing-6);
+  line-height: 1.6;
+}
+
+.text {
+  font-size: var(--font-size-base);
+  color: var(--color-grey-600);
+  margin-bottom: var(--spacing-6);
+  line-height: 1.7;
+}
+
+.highlightBox {
+  background-color: var(--color-accent-50);
+  border-left: 4px solid var(--color-accent-500);
+  padding: var(--spacing-6);
+  margin: var(--spacing-8) 0;
+  border-radius: var(--radius-md);
+}
+
+.highlightTitle {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-primary-900);
+  margin-bottom: var(--spacing-3);
+}
+
+.highlightText {
+  font-size: var(--font-size-base);
+  color: var(--color-grey-700);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.subServicesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-6);
+  margin-top: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+  .subServicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .subServicesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.subServiceCard {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-white);
+  padding: var(--spacing-6);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 4px solid var(--color-accent-500);
+  height: 100%;
+}
+
+.subServiceCard:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
+.subServiceTitle {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-primary-900);
+  margin-bottom: var(--spacing-3);
+}
+
+.subServiceDescription {
+  font-size: var(--font-size-base);
+  color: var(--color-grey-600);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-4);
+  flex: 1;
+}
+
+.subServiceLink {
+  font-size: var(--font-size-base);
+  color: var(--color-accent-600);
+  font-weight: 600;
+  margin-top: auto;
+}
+
+.considerationsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-6);
+  margin-top: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+  .considerationsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .considerationsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.considerationItem {
+  background-color: var(--color-white);
+  padding: var(--spacing-6);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.considerationTitle {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-primary-900);
+  margin-bottom: var(--spacing-3);
+}
+
+.considerationDescription {
+  font-size: var(--font-size-base);
+  color: var(--color-grey-600);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-6) 0;
+}
+
+.list li {
+  font-size: var(--font-size-base);
+  color: var(--color-grey-600);
+  padding: var(--spacing-4) 0;
+  padding-left: var(--spacing-8);
+  position: relative;
+  line-height: 1.7;
+}
+
+.list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--color-accent-500);
+  font-weight: 700;
+  font-size: var(--font-size-lg);
+}
+
+.list li strong {
+  color: var(--color-primary-900);
+  font-weight: 700;
+}
+
+.backLink {
+  font-size: var(--font-size-base);
+  color: var(--color-primary-600);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.backLink:hover {
+  color: var(--color-accent-600);
+  text-decoration: underline;
+}
+
