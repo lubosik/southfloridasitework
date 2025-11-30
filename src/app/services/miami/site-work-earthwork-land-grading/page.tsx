@@ -22,6 +22,7 @@ export default function MiamiSiteWorkEarthworkLandGradingPage() {
         title="Site Work, Earthwork and Land Grading in Miami, FL"
         subtitle="Complete site development, earthwork, and grading services for commercial and residential projects across Miami-Dade County"
         backgroundImageUrl="/images/hero/hero-background.png"
+        backgroundImageAlt="Site work and earthwork services in Miami, Florida"
       />
 
       <section className={styles.section}>
