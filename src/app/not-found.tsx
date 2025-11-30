@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { siteConfig } from '@/lib/site-config'
 
 export default function NotFound() {
@@ -21,7 +20,7 @@ export default function NotFound() {
       <p style={{ marginBottom: '2rem', color: 'var(--color-grey-600)', maxWidth: '600px' }}>
         The page you are looking for does not exist. It may have been moved or deleted.
       </p>
-      <Link
+      <a
         href="/"
         style={{
           display: 'inline-block',
@@ -41,7 +40,7 @@ export default function NotFound() {
         }}
       >
         Return to Homepage
-      </Link>
+      </a>
       <p style={{ marginTop: '2rem', fontSize: '0.875rem', color: 'var(--color-grey-500)' }}>
         Need help? Call us at{' '}
         <a href={siteConfig.phone.href} style={{ color: 'var(--color-accent-600)', fontWeight: '600' }}>

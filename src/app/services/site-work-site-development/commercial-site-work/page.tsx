@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
 import CTABanner from '@/components/CTABanner'
 import { siteConfig } from '@/lib/site-config'
 import { getServiceImagePath } from '@/lib/image-mapping'
@@ -269,31 +268,31 @@ export default function CommercialSiteWorkPage() {
               learn more about commercial site work in your area:
             </p>
             <div className={styles.locationsGrid}>
-              <Link href="/services/site-work-site-development/commercial-site-work/miami/" className={styles.locationCard}>
+              <a href="/services/site-work-site-development/commercial-site-work/miami/" className={styles.locationCard}>
                 <h3 className={styles.locationTitle}>Miami, FL</h3>
                 <p className={styles.locationCounty}>Miami-Dade County</p>
                 <span className={styles.locationLink}>View Miami Services →</span>
-              </Link>
-              <Link href="/services/site-work-site-development/commercial-site-work/fort-lauderdale/" className={styles.locationCard}>
+              </a>
+              <a href="/services/site-work-site-development/commercial-site-work/fort-lauderdale/" className={styles.locationCard}>
                 <h3 className={styles.locationTitle}>Fort Lauderdale, FL</h3>
                 <p className={styles.locationCounty}>Broward County</p>
                 <span className={styles.locationLink}>View Fort Lauderdale Services →</span>
-              </Link>
-              <Link href="/services/site-work-site-development/commercial-site-work/west-palm-beach/" className={styles.locationCard}>
+              </a>
+              <a href="/services/site-work-site-development/commercial-site-work/west-palm-beach/" className={styles.locationCard}>
                 <h3 className={styles.locationTitle}>West Palm Beach, FL</h3>
                 <p className={styles.locationCounty}>Palm Beach County</p>
                 <span className={styles.locationLink}>View West Palm Beach Services →</span>
-              </Link>
-              <Link href="/services/site-work-site-development/commercial-site-work/florida-keys/" className={styles.locationCard}>
+              </a>
+              <a href="/services/site-work-site-development/commercial-site-work/florida-keys/" className={styles.locationCard}>
                 <h3 className={styles.locationTitle}>Florida Keys</h3>
                 <p className={styles.locationCounty}>Monroe County</p>
                 <span className={styles.locationLink}>View Florida Keys Services →</span>
-              </Link>
+              </a>
             </div>
             <p className={styles.text} style={{ marginTop: 'var(--spacing-8)' }}>
-              <Link href="/services/site-work-site-development/" className={styles.backLink}>
+              <a href="/services/site-work-site-development/" className={styles.backLink}>
                 ← Back to Site Work and Site Development
-              </Link>
+              </a>
             </p>
           </div>
         </div>

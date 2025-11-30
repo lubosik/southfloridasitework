@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { siteConfig } from '@/lib/site-config'
 import styles from './Footer.module.css'
 
@@ -41,9 +40,9 @@ export default function Footer() {
             <ul className={styles.linkList}>
               {serviceLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className={styles.link}>
+                  <a href={link.href} className={styles.link}>
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -55,9 +54,9 @@ export default function Footer() {
             <ul className={styles.linkList}>
               {areaLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className={styles.link}>
+                  <a href={link.href} className={styles.link}>
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -68,39 +67,39 @@ export default function Footer() {
             <h4 className={styles.subheading}>Quick Links</h4>
             <ul className={styles.linkList}>
               <li>
-                <Link href="/" className={styles.link}>
+                <a href="/" className={styles.link}>
                   Home
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/services/" className={styles.link}>
+                <a href="/services/" className={styles.link}>
                   All Services
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/service-areas/" className={styles.link}>
+                <a href="/service-areas/" className={styles.link}>
                   Service Areas
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/projects/" className={styles.link}>
+                <a href="/projects/" className={styles.link}>
                   Projects
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/about/" className={styles.link}>
+                <a href="/about/" className={styles.link}>
                   About Us
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/resources/" className={styles.link}>
+                <a href="/resources/" className={styles.link}>
                   Resources
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/contact/" className={styles.link}>
+                <a href="/contact/" className={styles.link}>
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
 import CTABanner from '@/components/CTABanner'
 import { siteConfig } from '@/lib/site-config'
 import { getServiceImagePath } from '@/lib/image-mapping'
@@ -262,42 +261,42 @@ export default function SiteWorkSiteDevelopmentPage() {
               Explore our specialized site work and site development services:
             </p>
             <div className={styles.subServicesGrid}>
-              <Link href="/services/site-work-site-development/complete-site-development-packages/" className={styles.subServiceCard}>
+              <a href="/services/site-work-site-development/complete-site-development-packages/" className={styles.subServiceCard}>
                 <h3 className={styles.subServiceTitle}>Complete Site Development Packages</h3>
                 <p className={styles.subServiceDescription}>
                   Turnkey site development from clearing to building pad preparation
                 </p>
-              </Link>
-              <Link href="/services/site-work-site-development/commercial-site-work/" className={styles.subServiceCard}>
+              </a>
+              <a href="/services/site-work-site-development/commercial-site-work/" className={styles.subServiceCard}>
                 <h3 className={styles.subServiceTitle}>Commercial Site Work</h3>
                 <p className={styles.subServiceDescription}>
                   Site work services for commercial developments and retail centers
                 </p>
-              </Link>
-              <Link href="/services/site-work-site-development/custom-home-site-work/" className={styles.subServiceCard}>
+              </a>
+              <a href="/services/site-work-site-development/custom-home-site-work/" className={styles.subServiceCard}>
                 <h3 className={styles.subServiceTitle}>Custom Home Site Work</h3>
                 <p className={styles.subServiceDescription}>
                   Site preparation services for custom home construction
                 </p>
-              </Link>
-              <Link href="/services/site-work-site-development/subdivision-infrastructure/" className={styles.subServiceCard}>
+              </a>
+              <a href="/services/site-work-site-development/subdivision-infrastructure/" className={styles.subServiceCard}>
                 <h3 className={styles.subServiceTitle}>Subdivision and Infrastructure Site Work</h3>
                 <p className={styles.subServiceDescription}>
                   Complete site work for new subdivisions and infrastructure projects
                 </p>
-              </Link>
-              <Link href="/services/site-work-site-development/cut-fill-mass-earthmoving/" className={styles.subServiceCard}>
+              </a>
+              <a href="/services/site-work-site-development/cut-fill-mass-earthmoving/" className={styles.subServiceCard}>
                 <h3 className={styles.subServiceTitle}>Cut and Fill and Mass Earthmoving</h3>
                 <p className={styles.subServiceDescription}>
                   Large-scale earthmoving and cut/fill operations for site balancing
                 </p>
-              </Link>
-              <Link href="/services/site-work-site-development/value-engineering-preconstruction/" className={styles.subServiceCard}>
+              </a>
+              <a href="/services/site-work-site-development/value-engineering-preconstruction/" className={styles.subServiceCard}>
                 <h3 className={styles.subServiceTitle}>Value Engineering and Pre-Construction Assistance</h3>
                 <p className={styles.subServiceDescription}>
                   Site work planning, value engineering, and pre-construction consulting
                 </p>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { siteConfig } from '@/lib/site-config'
 import ServiceCard from '@/components/ServiceCard'
 import styles from './page.module.css'
@@ -99,9 +98,9 @@ export default function ServicesIndexPage() {
             We&apos;ll connect you with the right licensed contractor for your needs.
           </p>
           <div className={styles.ctaButtons}>
-            <Link href="/contact/" className={styles.primaryButton}>
+            <a href="/contact/" className={styles.primaryButton}>
               Request a Quote
-            </Link>
+            </a>
             <a href={siteConfig.phone.href} className={styles.secondaryButton}>
               Call {siteConfig.phone.display}
             </a>
