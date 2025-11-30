@@ -77,54 +77,49 @@ export default function LandClearingLotPreparationPage() {
 
       <section className={`${styles.section} ${styles.sectionAlt}`}>
         <div className={styles.container}>
-          <h2 className={styles.heading}>Land Clearing and Lot Preparation Services</h2>
-          <div className={styles.servicesGrid}>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Vegetation and Tree Clearing</h3>
-              <p className={styles.serviceDescription}>
-                Removal of trees, shrubs, and vegetation to prepare the site for construction, 
-                including selective clearing to preserve desirable trees when possible and complete 
-                clearing for full site development.
+          <div className={styles.content}>
+            <h2 className={styles.heading}>Sub-Services</h2>
+            <p className={styles.text}>
+              Explore our specialized land clearing and lot preparation services:
+            </p>
+          </div>
+          <div className={styles.subServicesGrid}>
+            <a href="/services/land-clearing-lot-preparation/vegetation-tree-clearing/" className={styles.subServiceCard}>
+              <h3 className={styles.subServiceTitle}>Vegetation and Tree Clearing</h3>
+              <p className={styles.subServiceDescription}>
+                Removal of trees, shrubs, and vegetation to prepare sites for construction
               </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Stump Removal and Grubbing</h3>
-              <p className={styles.serviceDescription}>
-                Complete removal of tree stumps and root systems (grubbing) to ensure the site is 
-                free of organic material that could decompose and cause settling issues under 
-                foundations or paved areas.
+            </a>
+            <a href="/services/land-clearing-lot-preparation/stump-removal-grubbing/" className={styles.subServiceCard}>
+              <h3 className={styles.subServiceTitle}>Stump Removal and Grubbing</h3>
+              <p className={styles.subServiceDescription}>
+                Complete removal of tree stumps and root systems
               </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Debris Hauling and Site Cleanup</h3>
-              <p className={styles.serviceDescription}>
-                Removal and disposal of cleared vegetation, stumps, and debris, including coordination 
-                of hauling to appropriate disposal sites or recycling facilities.
+            </a>
+            <a href="/services/land-clearing-lot-preparation/debris-hauling-site-cleanup/" className={styles.subServiceCard}>
+              <h3 className={styles.subServiceTitle}>Debris Hauling and Site Cleanup</h3>
+              <p className={styles.subServiceDescription}>
+                Removal and disposal of cleared vegetation and debris
               </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Rough Grading After Clearing</h3>
-              <p className={styles.serviceDescription}>
-                Initial rough grading after clearing to establish approximate site elevations and 
-                prepare for more detailed grading work, including removal of remaining roots and 
-                organic material.
+            </a>
+            <a href="/services/land-clearing-lot-preparation/rough-grading-after-clearing/" className={styles.subServiceCard}>
+              <h3 className={styles.subServiceTitle}>Rough Grading After Clearing</h3>
+              <p className={styles.subServiceDescription}>
+                Initial rough grading to establish site elevations after clearing
               </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Demolition Coordination</h3>
-              <p className={styles.serviceDescription}>
-                Coordination with demolition contractors for removal of existing structures, 
-                foundations, or other improvements that need to be removed before site development 
-                can begin.
+            </a>
+            <a href="/services/land-clearing-lot-preparation/demolition-coordination/" className={styles.subServiceCard}>
+              <h3 className={styles.subServiceTitle}>Demolition Coordination</h3>
+              <p className={styles.subServiceDescription}>
+                Coordination with demolition contractors for structure removal
               </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Site Access Preparation</h3>
-              <p className={styles.serviceDescription}>
-                Clearing and preparation of access roads and staging areas for construction equipment 
-                and materials, ensuring safe and efficient access throughout the construction process.
+            </a>
+            <a href="/services/land-clearing-lot-preparation/site-access-preparation/" className={styles.subServiceCard}>
+              <h3 className={styles.subServiceTitle}>Site Access Preparation</h3>
+              <p className={styles.subServiceDescription}>
+                Clearing and preparation of access roads and staging areas
               </p>
-            </div>
+            </a>
           </div>
         </div>
       </section>
