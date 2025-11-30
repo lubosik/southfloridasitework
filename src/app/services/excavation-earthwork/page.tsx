@@ -77,56 +77,49 @@ export default function ExcavationEarthworkPage() {
 
       <section className={`${styles.section} ${styles.sectionAlt}`}>
         <div className={styles.container}>
-          <h2 className={styles.heading}>Excavation and Earthwork Services</h2>
-          <div className={styles.servicesGrid}>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Mass Excavation and Cut/Fill</h3>
-              <p className={styles.serviceDescription}>
-                Large-scale excavation and earthmoving for commercial and residential developments, 
-                including cut and fill operations to balance site elevations and achieve proper 
-                grades for building pads and infrastructure.
-              </p>
+          <div className={styles.content}>
+            <h2 className={styles.heading}>Sub-Services</h2>
+            <p className={styles.text}>
+              Explore our specialized excavation and earthwork services:
+            </p>
+            <div className={styles.subServicesGrid}>
+              <a href="/services/excavation-earthwork/mass-excavation-cut-fill/" className={styles.subServiceCard}>
+                <h3 className={styles.subServiceTitle}>Mass Excavation and Cut/Fill</h3>
+                <p className={styles.subServiceDescription}>
+                  Large-scale excavation and earthmoving for commercial and residential developments
+                </p>
+              </a>
+              <a href="/services/excavation-earthwork/foundation-footing-excavation/" className={styles.subServiceCard}>
+                <h3 className={styles.subServiceTitle}>Foundation and Footing Excavation</h3>
+                <p className={styles.subServiceDescription}>
+                  Precision excavation for building foundations and footings
+                </p>
+              </a>
+              <a href="/services/excavation-earthwork/utility-trench-excavation/" className={styles.subServiceCard}>
+                <h3 className={styles.subServiceTitle}>Utility Trench Excavation</h3>
+                <p className={styles.subServiceDescription}>
+                  Trenching for water, sewer, electrical, and telecommunications utilities
+                </p>
+              </a>
+              <a href="/services/excavation-earthwork/retention-detention-ponds/" className={styles.subServiceCard}>
+                <h3 className={styles.subServiceTitle}>Retention and Detention Ponds</h3>
+                <p className={styles.subServiceDescription}>
+                  Excavation and construction of stormwater management ponds
+                </p>
+              </a>
+              <a href="/services/excavation-earthwork/swales-drainage-features/" className={styles.subServiceCard}>
+                <h3 className={styles.subServiceTitle}>Swales and Drainage Features</h3>
+                <p className={styles.subServiceDescription}>
+                  Excavation of swales, ditches, and drainage features
+                </p>
+              </a>
+              <a href="/services/excavation-earthwork/fill-import-export-hauling/" className={styles.subServiceCard}>
+                <h3 className={styles.subServiceTitle}>Fill Import, Export and Hauling</h3>
+                <p className={styles.subServiceDescription}>
+                  Coordination of fill material import, export, and hauling operations
+                </p>
+              </a>
             </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Foundation and Footing Excavation</h3>
-              <p className={styles.serviceDescription}>
-                Precision excavation for building foundations and footings to exact depths and 
-                dimensions specified in engineering drawings, with proper soil preparation and 
-                compaction for foundation support.
-              </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Utility Trench Excavation</h3>
-              <p className={styles.serviceDescription}>
-                Trenching for utilities including water, sewer, electrical, telecommunications, 
-                and gas lines with proper depth, width, and slope requirements for utility 
-                installation and code compliance.
-              </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Retention and Detention Ponds</h3>
-              <p className={styles.serviceDescription}>
-                Excavation and construction of retention and detention ponds for stormwater 
-                management, including proper depths, slopes, and overflow structures to meet 
-                SFWMD and county requirements.
-              </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Swales and Drainage Features</h3>
-              <p className={styles.serviceDescription}>
-                Excavation of swales, ditches, and other drainage features with proper slopes 
-                and connections to stormwater management systems and outfalls.
-              </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Fill Import, Export and Hauling</h3>
-              <p className={styles.serviceDescription}>
-                Coordination of fill import and export operations, including sourcing suitable 
-                fill material, transportation, placement, and compaction to meet project 
-                specifications and regulatory requirements.
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 

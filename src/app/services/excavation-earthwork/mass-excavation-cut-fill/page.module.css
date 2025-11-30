@@ -66,7 +66,7 @@
 .title {
   font-size: var(--font-size-4xl);
   font-weight: 800;
-  margin-bottom: var(--spacing-4);
+  margin-bottom: var(--spacing-6);
   color: #FFFFFF;
   line-height: 1.2;
 }
@@ -87,7 +87,7 @@
 .heroContent .intro {
   font-size: var(--font-size-xl);
   line-height: 1.7;
-  margin-bottom: var(--spacing-4);
+  margin-bottom: var(--spacing-6);
   color: #FFFFFF !important;
   max-width: 900px;
 }
@@ -118,8 +118,7 @@
   }
 }
 
-.content .intro,
-.section .intro {
+.intro {
   font-size: var(--font-size-xl);
   color: var(--color-grey-700);
   line-height: 1.7;
@@ -304,53 +303,101 @@
   margin: 0;
 }
 
-.subServicesGrid {
+.relatedServices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-4);
+  margin: var(--spacing-6) 0;
+}
+
+.relatedLink {
+  display: inline-block;
+  padding: var(--spacing-3) var(--spacing-6);
+  background-color: var(--color-primary-700);
+  color: var(--color-white);
+  text-decoration: none;
+  border-radius: var(--radius-lg);
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.relatedLink:hover {
+  background-color: var(--color-primary-800);
+  transform: translateY(-2px);
+}
+
+.backLink {
+  color: var(--color-primary-700);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.backLink:hover {
+  color: var(--color-primary-900);
+}
+
+.locationsGrid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--spacing-4);
-  margin-top: var(--spacing-6);
+  gap: var(--spacing-6);
+  margin-top: var(--spacing-8);
 }
 
 @media (min-width: 768px) {
-  .subServicesGrid {
+  .locationsGrid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
-  .subServicesGrid {
-    grid-template-columns: repeat(3, 1fr);
+  .locationsGrid {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
-.subServiceCard {
-  display: block;
+.locationCard {
+  display: flex;
+  flex-direction: column;
   background-color: var(--color-white);
   padding: var(--spacing-6);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-xl);
   box-shadow: var(--shadow-md);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
   text-decoration: none;
-  border: 2px solid transparent;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-top: 4px solid var(--color-accent-500);
+  height: 100%;
 }
 
-.subServiceCard:hover {
+.locationCard:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-xl);
-  border-color: var(--color-accent-500);
 }
 
-.subServiceTitle {
-  font-size: var(--font-size-lg);
+.locationTitle {
+  font-size: var(--font-size-xl);
   font-weight: 700;
   color: var(--color-primary-900);
   margin-bottom: var(--spacing-2);
 }
 
-.subServiceDescription {
+.locationCounty {
   font-size: var(--font-size-base);
-  color: var(--color-grey-600);
-  line-height: 1.6;
-  margin: 0;
+  color: var(--color-accent-600);
+  font-weight: 600;
+  margin-bottom: var(--spacing-4);
+}
+
+.locationLink {
+  font-size: var(--font-size-base);
+  color: var(--color-primary-700);
+  font-weight: 600;
+  margin-top: auto;
+  transition: color 0.2s ease;
+}
+
+.locationCard:hover .locationLink {
+  color: var(--color-accent-600);
 }
 
