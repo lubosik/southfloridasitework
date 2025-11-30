@@ -78,54 +78,49 @@ export default function DrainageStormwaterSolutionsPage() {
 
       <section className={`${styles.section} ${styles.sectionAlt}`}>
         <div className={styles.container}>
-          <h2 className={styles.heading}>Drainage and Stormwater Services</h2>
-          <div className={styles.servicesGrid}>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Site Regrading for Drainage</h3>
-              <p className={styles.serviceDescription}>
-                Regrading sites to improve water flow and eliminate standing water by adjusting 
-                elevations and slopes to direct water away from structures and toward proper 
-                drainage outlets.
+          <div className={styles.content}>
+            <h2 className={styles.heading}>Sub-Services</h2>
+            <p className={styles.text}>
+              Explore our specialized drainage and stormwater solutions:
+            </p>
+          </div>
+          <div className={styles.subServicesGrid}>
+            <a href="/services/drainage-stormwater-solutions/site-regrading-drainage/" className={styles.subServiceCard}>
+              <h3 className={styles.subServiceTitle}>Site Regrading for Drainage</h3>
+              <p className={styles.subServiceDescription}>
+                Regrading sites to improve water flow and eliminate standing water
               </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>French Drains and Underdrain Systems</h3>
-              <p className={styles.serviceDescription}>
-                Installation of French drains, underdrain systems, and subsurface drainage to 
-                collect and redirect groundwater and surface water away from foundations and 
-                low-lying areas.
+            </a>
+            <a href="/services/drainage-stormwater-solutions/french-drains-underdrain-systems/" className={styles.subServiceCard}>
+              <h3 className={styles.subServiceTitle}>French Drains and Underdrain Systems</h3>
+              <p className={styles.subServiceDescription}>
+                Installation of French drains and subsurface drainage systems
               </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Stormwater Inlets and Piping</h3>
-              <p className={styles.serviceDescription}>
-                Installation of stormwater inlets, catch basins, and underground piping systems 
-                to collect and transport stormwater to retention areas or outfalls.
+            </a>
+            <a href="/services/drainage-stormwater-solutions/stormwater-inlets-piping/" className={styles.subServiceCard}>
+              <h3 className={styles.subServiceTitle}>Stormwater Inlets and Piping</h3>
+              <p className={styles.subServiceDescription}>
+                Installation of catch basins and underground stormwater piping
               </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Swales, Ditches and Outfalls</h3>
-              <p className={styles.serviceDescription}>
-                Construction of swales, ditches, and outfall structures to channel surface water 
-                runoff and connect to stormwater management systems or natural drainage ways.
+            </a>
+            <a href="/services/drainage-stormwater-solutions/swales-ditches-outfalls/" className={styles.subServiceCard}>
+              <h3 className={styles.subServiceTitle}>Swales, Ditches and Outfalls</h3>
+              <p className={styles.subServiceDescription}>
+                Construction of swales, ditches, and outfall structures
               </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Retention and Detention Basins</h3>
-              <p className={styles.serviceDescription}>
-                Design and construction of retention and detention basins to temporarily store 
-                stormwater, reduce peak flow rates, and meet SFWMD and county stormwater 
-                management requirements.
+            </a>
+            <a href="/services/drainage-stormwater-solutions/retention-detention-basins/" className={styles.subServiceCard}>
+              <h3 className={styles.subServiceTitle}>Retention and Detention Basins</h3>
+              <p className={styles.subServiceDescription}>
+                Design and construction of stormwater retention and detention basins
               </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Flood-Prone and Coastal Property Drainage</h3>
-              <p className={styles.serviceDescription}>
-                Specialized drainage solutions for flood-prone properties and coastal areas, 
-                including elevated drainage systems, flood-resistant materials, and designs 
-                that account for high water tables and storm surge.
+            </a>
+            <a href="/services/drainage-stormwater-solutions/flood-prone-coastal-drainage/" className={styles.subServiceCard}>
+              <h3 className={styles.subServiceTitle}>Flood-Prone and Coastal Property Drainage</h3>
+              <p className={styles.subServiceDescription}>
+                Specialized drainage solutions for flood-prone and coastal properties
               </p>
-            </div>
+            </a>
           </div>
         </div>
       </section>
