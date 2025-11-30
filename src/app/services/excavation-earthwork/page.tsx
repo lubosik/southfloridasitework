@@ -82,7 +82,8 @@ export default function ExcavationEarthworkPage() {
             <p className={styles.text}>
               Explore our specialized excavation and earthwork services:
             </p>
-            <div className={styles.subServicesGrid}>
+          </div>
+          <div className={styles.subServicesGrid}>
               <a href="/services/excavation-earthwork/mass-excavation-cut-fill/" className={styles.subServiceCard}>
                 <h3 className={styles.subServiceTitle}>Mass Excavation and Cut/Fill</h3>
                 <p className={styles.subServiceDescription}>
