@@ -35,7 +35,7 @@ export default function DebrisHaulingSiteCleanupPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('land-clearing-lot-preparation')}
+                src="/images/services/debris-hauling.jpg"
                 alt="Debris hauling and site cleanup services in South Florida"
                 fill
                 className={styles.heroImage}

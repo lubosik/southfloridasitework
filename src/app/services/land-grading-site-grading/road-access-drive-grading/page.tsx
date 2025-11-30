@@ -36,7 +36,7 @@ export default function RoadAccessDriveGradingPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('land-grading-site-grading')}
+                src="/images/services/road-grading.jpg"
                 alt="Road and access drive grading services in South Florida"
                 fill
                 className={styles.heroImage}

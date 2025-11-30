@@ -37,7 +37,7 @@ export default function FloodProneCoastalDrainagePage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('drainage-stormwater-solutions')}
+                src="/images/services/flood-prone-coastal.jpg"
                 alt="Flood-prone and coastal property drainage solutions in South Florida"
                 fill
                 className={styles.heroImage}

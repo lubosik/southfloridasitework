@@ -36,7 +36,7 @@ export default function RoughFinalGradingDevelopmentsPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('land-grading-site-grading')}
+                src="/images/services/rough-final-grading.jpg"
                 alt="Rough and final grading for new developments in South Florida"
                 fill
                 className={styles.heroImage}

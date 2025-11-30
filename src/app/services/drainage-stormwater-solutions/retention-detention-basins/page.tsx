@@ -37,7 +37,7 @@ export default function RetentionDetentionBasinsPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('drainage-stormwater-solutions')}
+                src="/images/services/retention-detention-basins.jpg"
                 alt="Retention and detention basin construction in South Florida"
                 fill
                 className={styles.heroImage}

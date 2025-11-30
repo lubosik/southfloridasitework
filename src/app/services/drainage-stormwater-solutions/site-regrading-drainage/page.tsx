@@ -37,7 +37,7 @@ export default function SiteRegradingDrainagePage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('drainage-stormwater-solutions')}
+                src="/images/services/site-regrading-drainage.jpg"
                 alt="Site regrading for drainage problems in South Florida"
                 fill
                 className={styles.heroImage}

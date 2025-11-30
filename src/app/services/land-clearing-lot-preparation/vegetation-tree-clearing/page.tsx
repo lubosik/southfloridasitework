@@ -37,7 +37,7 @@ export default function VegetationTreeClearingPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('land-clearing-lot-preparation')}
+                src="/images/services/vegetation-tree-clearing.jpg"
                 alt="Vegetation and tree clearing services in South Florida"
                 fill
                 className={styles.heroImage}

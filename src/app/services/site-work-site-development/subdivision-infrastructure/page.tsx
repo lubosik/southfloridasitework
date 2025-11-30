@@ -37,7 +37,7 @@ export default function SubdivisionInfrastructurePage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('site-work-site-development')}
+                src="/images/services/subdivision-infrastructure.jpg"
                 alt="Subdivision and infrastructure site work services in South Florida"
                 fill
                 className={styles.heroImage}

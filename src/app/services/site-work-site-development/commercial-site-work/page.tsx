@@ -37,7 +37,7 @@ export default function CommercialSiteWorkPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('site-work-site-development')}
+                src="/images/services/commercial-site-work.jpg"
                 alt="Commercial site work services in South Florida"
                 fill
                 className={styles.heroImage}

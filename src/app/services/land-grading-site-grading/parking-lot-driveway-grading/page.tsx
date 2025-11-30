@@ -36,7 +36,7 @@ export default function ParkingLotDrivewayGradingPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('land-grading-site-grading')}
+                src="/images/services/parking-lot-grading.jpg"
                 alt="Parking lot and driveway grading services in South Florida"
                 fill
                 className={styles.heroImage}

@@ -37,7 +37,7 @@ export default function CompleteSiteDevelopmentPackagesPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('site-work-site-development')}
+                src="/images/services/complete-site-development.jpg"
                 alt="Complete site development packages in South Florida"
                 fill
                 className={styles.heroImage}

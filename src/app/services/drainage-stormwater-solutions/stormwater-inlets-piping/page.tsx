@@ -37,7 +37,7 @@ export default function StormwaterInletsPipingPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('drainage-stormwater-solutions')}
+                src="/images/services/stormwater-inlets.jpg"
                 alt="Stormwater inlets and piping systems in South Florida"
                 fill
                 className={styles.heroImage}

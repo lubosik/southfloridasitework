@@ -38,7 +38,7 @@ export default function RetentionDetentionPondsPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('excavation-earthwork')}
+                src="/images/services/retention-ponds.jpg"
                 alt="Retention and detention pond excavation and construction in South Florida"
                 fill
                 className={styles.heroImage}

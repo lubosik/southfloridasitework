@@ -37,7 +37,7 @@ export default function CutFillMassEarthmovingPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('excavation-earthwork')}
+                src="/images/services/cut-fill-mass-earthmoving.jpg"
                 alt="Cut and fill and mass earthmoving services in South Florida"
                 fill
                 className={styles.heroImage}

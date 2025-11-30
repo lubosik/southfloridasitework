@@ -38,7 +38,7 @@ export default function UtilityTrenchExcavationPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('excavation-earthwork')}
+                src="/images/services/utility-trench.jpg"
                 alt="Utility trench excavation services in South Florida"
                 fill
                 className={styles.heroImage}

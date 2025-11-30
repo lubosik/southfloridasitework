@@ -37,7 +37,7 @@ export default function ValueEngineeringPreconstructionPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('site-work-site-development')}
+                src="/images/services/value-engineering.jpg"
                 alt="Value engineering and pre-construction assistance services in South Florida"
                 fill
                 className={styles.heroImage}

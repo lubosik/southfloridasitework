@@ -37,7 +37,7 @@ export default function StumpRemovalGrubbingPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('land-clearing-lot-preparation')}
+                src="/images/services/stump-removal.jpg"
                 alt="Stump removal and grubbing services in South Florida"
                 fill
                 className={styles.heroImage}

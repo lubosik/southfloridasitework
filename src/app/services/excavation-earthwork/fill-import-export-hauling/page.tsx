@@ -37,7 +37,7 @@ export default function FillImportExportHaulingPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('excavation-earthwork')}
+                src="/images/services/fill-hauling.jpg"
                 alt="Fill import, export, and hauling coordination in South Florida"
                 fill
                 className={styles.heroImage}

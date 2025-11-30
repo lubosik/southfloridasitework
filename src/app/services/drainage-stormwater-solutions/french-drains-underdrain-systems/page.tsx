@@ -37,7 +37,7 @@ export default function FrenchDrainsUnderdrainSystemsPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('drainage-stormwater-solutions')}
+                src="/images/services/french-drains.jpg"
                 alt="French drains and underdrain systems in South Florida"
                 fill
                 className={styles.heroImage}

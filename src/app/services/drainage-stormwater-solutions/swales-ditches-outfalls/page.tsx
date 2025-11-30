@@ -36,7 +36,7 @@ export default function SwalesDitchesOutfallsPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('drainage-stormwater-solutions')}
+                src="/images/services/swales-ditches-outfalls.jpg"
                 alt="Swales, ditches, and outfall construction in South Florida"
                 fill
                 className={styles.heroImage}

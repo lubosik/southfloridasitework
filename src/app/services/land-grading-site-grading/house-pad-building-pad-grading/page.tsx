@@ -36,7 +36,7 @@ export default function HousePadBuildingPadGradingPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('land-grading-site-grading')}
+                src="/images/services/house-pad-grading.jpg"
                 alt="House pad and building pad grading services in South Florida"
                 fill
                 className={styles.heroImage}

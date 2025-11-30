@@ -37,7 +37,7 @@ export default function SlopeStabilizationErosionControlPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('land-grading-site-grading')}
+                src="/images/services/slope-stabilization.jpg"
                 alt="Slope stabilization and erosion control services in South Florida"
                 fill
                 className={styles.heroImage}

@@ -37,7 +37,7 @@ export default function CustomHomeSiteWorkPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('site-work-site-development')}
+                src="/images/services/custom-home-site-work.jpg"
                 alt="Custom home site work services in South Florida"
                 fill
                 className={styles.heroImage}

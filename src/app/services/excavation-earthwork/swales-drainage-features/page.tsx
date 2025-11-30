@@ -38,7 +38,7 @@ export default function SwalesDrainageFeaturesPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('excavation-earthwork')}
+                src="/images/services/swales-drainage.jpg"
                 alt="Swales and drainage feature excavation in South Florida"
                 fill
                 className={styles.heroImage}

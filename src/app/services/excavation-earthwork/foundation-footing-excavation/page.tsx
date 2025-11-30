@@ -38,7 +38,7 @@ export default function FoundationFootingExcavationPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('excavation-earthwork')}
+                src="/images/services/foundation-excavation.jpg"
                 alt="Foundation and footing excavation services in South Florida"
                 fill
                 className={styles.heroImage}

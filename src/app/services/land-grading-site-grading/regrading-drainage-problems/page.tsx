@@ -36,7 +36,7 @@ export default function RegradingDrainageProblemsPage() {
             </div>
             <div className={styles.heroImageWrapper}>
               <Image
-                src={getServiceImagePath('land-grading-site-grading')}
+                src="/images/services/regrading-drainage.jpg"
                 alt="Site regrading for drainage problems in South Florida"
                 fill
                 className={styles.heroImage}
