@@ -21,7 +21,7 @@ export default function MiamiSiteWorkEarthworkLandGradingPage() {
       <HeroWithQuote
         title="Site Work, Earthwork and Land Grading in Miami, FL"
         subtitle="Complete site development, earthwork, and grading services for commercial and residential projects across Miami-Dade County"
-        backgroundImage="/images/hero/hero-background.png"
+        backgroundImageUrl="/images/hero/hero-background.png"
       />
 
       <section className={styles.section}>
