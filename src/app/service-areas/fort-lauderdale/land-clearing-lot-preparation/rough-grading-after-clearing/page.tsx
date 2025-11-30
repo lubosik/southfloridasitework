@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
+import HeroWithQuote from '@/components/HeroWithQuote'
 import CTABanner from '@/components/CTABanner'
 import { siteConfig } from '@/lib/site-config'
-import { getServiceImagePath } from '@/lib/image-mapping'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
@@ -18,39 +17,12 @@ export const metadata: Metadata = {
 export default function FortLauderdaleRoughGradingAfterClearingPage() {
   return (
     <main>
-      <section className={styles.hero}>
-        <div className={styles.container}>
-          <h1 className={styles.title}>Rough Grading After Clearing in Fort Lauderdale, FL</h1>
-          <div className={styles.heroContent}>
-            <div>
-              <p className={styles.intro}>
-                Initial grading to establish approximate site elevations and prepare for detailed work after 
-                land clearing across Broward County, from Fort Lauderdale to Hollywood, Weston to Plantation, 
-                Coral Ridge to Victoria Park. We coordinate licensed contractors to efficiently complete rough 
-                grading operations with attention to Broward County Development & Environmental Review (DER), 
-                Natural Resource Protection Code compliance, and storm event protection requirements.
-              </p>
-              <p className={styles.description}>
-                Rough grading after clearing in Broward County establishes the initial site elevations 
-                and prepares sites for detailed grading and construction. Our network of licensed contractors 
-                coordinates efficient rough grading that sets the foundation for building pad preparation and 
-                development, with full compliance to Broward County regulations including high water table 
-                considerations, coastal soil conditions, and storm event protection (100-year, 3-day storm event 
-                for structures; 10-year, 3-day storm event for roadways and parking lots).
-              </p>
-            </div>
-            <div className={styles.heroImageWrapper}>
-              <Image
-                src="/images/services/rough-grading-after-clearing.jpg"
-                alt="Rough grading after clearing services in Broward County"
-                fill
-                className={styles.heroImage}
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroWithQuote
+        title="Rough Grading After Clearing in Fort Lauderdale, FL"
+        subtitle="Initial grading to establish approximate site elevations and prepare for detailed work after land clearing across Broward County, from Fort Lauderdale to Hollywood, Weston to Plantation, Coral Ridge to Victoria Park"
+        backgroundImageUrl="/images/hero/hero-background.png"
+        backgroundImageAlt="Rough grading after clearing services in Fort Lauderdale, Florida"
+      />
 
       <section className={styles.section}>
         <div className={styles.container}>

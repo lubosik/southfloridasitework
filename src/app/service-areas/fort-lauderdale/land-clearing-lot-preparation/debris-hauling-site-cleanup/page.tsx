@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
+import HeroWithQuote from '@/components/HeroWithQuote'
 import CTABanner from '@/components/CTABanner'
 import { siteConfig } from '@/lib/site-config'
-import { getServiceImagePath } from '@/lib/image-mapping'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
@@ -18,37 +17,12 @@ export const metadata: Metadata = {
 export default function FortLauderdaleDebrisHaulingSiteCleanupPage() {
   return (
     <main>
-      <section className={styles.hero}>
-        <div className={styles.container}>
-          <h1 className={styles.title}>Debris Hauling and Site Cleanup in Fort Lauderdale, FL</h1>
-          <div className={styles.heroContent}>
-            <div>
-              <p className={styles.intro}>
-                Removal and disposal of cleared vegetation, stumps, and debris across Broward County, from 
-                Fort Lauderdale to Hollywood, Weston to Plantation, Coral Ridge to Victoria Park. We coordinate 
-                hauling to appropriate disposal sites, recycling facilities, and approved waste management 
-                facilities throughout Broward County.
-              </p>
-              <p className={styles.description}>
-                Proper debris hauling and site cleanup in Broward County is essential for complete site 
-                preparation. Our network of licensed contractors coordinates efficient debris removal and disposal 
-                that complies with Broward County waste management regulations, construction and demolition 
-                debris requirements, and recycling ordinances, with attention to Statement of Responsibilities 
-                Regarding Asbestos (SRRA) requirements where applicable.
-              </p>
-            </div>
-            <div className={styles.heroImageWrapper}>
-              <Image
-                src="/images/services/debris-hauling.jpg"
-                alt="Debris hauling and site cleanup services in Broward County"
-                fill
-                className={styles.heroImage}
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroWithQuote
+        title="Debris Hauling and Site Cleanup in Fort Lauderdale, FL"
+        subtitle="Removal and disposal of cleared vegetation, stumps, and debris across Broward County, from Fort Lauderdale to Hollywood, Weston to Plantation, Coral Ridge to Victoria Park"
+        backgroundImageUrl="/images/hero/hero-background.png"
+        backgroundImageAlt="Debris hauling and site cleanup services in Fort Lauderdale, Florida"
+      />
 
       <section className={styles.section}>
         <div className={styles.container}>

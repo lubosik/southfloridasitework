@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
+import HeroWithQuote from '@/components/HeroWithQuote'
 import CTABanner from '@/components/CTABanner'
 import { siteConfig } from '@/lib/site-config'
-import { getServiceImagePath } from '@/lib/image-mapping'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
@@ -18,37 +17,12 @@ export const metadata: Metadata = {
 export default function FortLauderdaleStumpRemovalGrubbingPage() {
   return (
     <main>
-      <section className={styles.hero}>
-        <div className={styles.container}>
-          <h1 className={styles.title}>Stump Removal and Grubbing in Fort Lauderdale, FL</h1>
-          <div className={styles.heroContent}>
-            <div>
-              <p className={styles.intro}>
-                Complete removal of tree stumps and root systems (grubbing) across Broward County, from 
-                Fort Lauderdale to Hollywood, Weston to Plantation, Coral Ridge to Victoria Park. We coordinate 
-                licensed contractors to ensure sites are free of organic material that could decompose and cause 
-                settling issues under foundations or paved areas.
-              </p>
-              <p className={styles.description}>
-                Stump removal and grubbing in Broward County is essential for complete site preparation. 
-                Our network of licensed contractors has the equipment and expertise to remove stumps and root 
-                systems completely, preventing future settling problems and preparing sites for construction, 
-                with attention to Broward County high water table conditions, coastal soil characteristics, 
-                and Natural Resource Protection Code compliance.
-              </p>
-            </div>
-            <div className={styles.heroImageWrapper}>
-              <Image
-                src="/images/services/stump-removal.jpg"
-                alt="Stump removal and grubbing services in Broward County"
-                fill
-                className={styles.heroImage}
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroWithQuote
+        title="Stump Removal and Grubbing in Fort Lauderdale, FL"
+        subtitle="Complete removal of tree stumps and root systems across Broward County, from Fort Lauderdale to Hollywood, Weston to Plantation, Coral Ridge to Victoria Park"
+        backgroundImageUrl="/images/hero/hero-background.png"
+        backgroundImageAlt="Stump removal and grubbing services in Fort Lauderdale, Florida"
+      />
 
       <section className={styles.section}>
         <div className={styles.container}>

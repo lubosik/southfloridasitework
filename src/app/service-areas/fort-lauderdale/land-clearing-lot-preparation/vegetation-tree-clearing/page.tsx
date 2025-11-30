@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
+import HeroWithQuote from '@/components/HeroWithQuote'
 import CTABanner from '@/components/CTABanner'
 import { siteConfig } from '@/lib/site-config'
-import { getServiceImagePath } from '@/lib/image-mapping'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
@@ -18,39 +17,12 @@ export const metadata: Metadata = {
 export default function FortLauderdaleVegetationTreeClearingPage() {
   return (
     <main>
-      <section className={styles.hero}>
-        <div className={styles.container}>
-          <h1 className={styles.title}>Vegetation and Tree Clearing in Fort Lauderdale, FL</h1>
-          <div className={styles.heroContent}>
-            <div>
-              <p className={styles.intro}>
-                Professional vegetation and tree clearing services across Broward County, from Fort Lauderdale 
-                to Hollywood, Weston to Plantation, Coral Ridge to Victoria Park. We coordinate licensed 
-                contractors to perform selective or complete clearing while navigating Broward County tree 
-                protection standards, Natural Resource Protection Code compliance, and SFWMD Environmental 
-                Resource Permits.
-              </p>
-              <p className={styles.description}>
-                Vegetation and tree clearing in Broward County requires careful coordination with Development 
-                & Environmental Review (DER) through ePermits OneStop, Natural Resource Protection Code 
-                compliance, and tree protection standards including barriers, hand clearing, and double 
-                replacement for damaged trees. Our network of licensed contractors has the equipment and 
-                expertise to clear sites efficiently while ensuring full compliance with Broward County 
-                environmental regulations and protected species requirements.
-              </p>
-            </div>
-            <div className={styles.heroImageWrapper}>
-              <Image
-                src="/images/services/vegetation-tree-clearing.jpg"
-                alt="Vegetation and tree clearing services in Broward County"
-                fill
-                className={styles.heroImage}
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroWithQuote
+        title="Vegetation and Tree Clearing in Fort Lauderdale, FL"
+        subtitle="Professional vegetation and tree clearing services across Broward County, from Fort Lauderdale to Hollywood, Weston to Plantation, Coral Ridge to Victoria Park"
+        backgroundImageUrl="/images/hero/hero-background.png"
+        backgroundImageAlt="Vegetation and tree clearing services in Fort Lauderdale, Florida"
+      />
 
       <section className={styles.section}>
         <div className={styles.container}>

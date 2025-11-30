@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
+import HeroWithQuote from '@/components/HeroWithQuote'
 import CTABanner from '@/components/CTABanner'
 import { siteConfig } from '@/lib/site-config'
-import { getServiceImagePath } from '@/lib/image-mapping'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
@@ -18,39 +17,12 @@ export const metadata: Metadata = {
 export default function FortLauderdaleDemolitionCoordinationPage() {
   return (
     <main>
-      <section className={styles.hero}>
-        <div className={styles.container}>
-          <h1 className={styles.title}>Demolition Coordination in Fort Lauderdale, FL</h1>
-          <div className={styles.heroContent}>
-            <div>
-              <p className={styles.intro}>
-                Coordination with demolition contractors for removal of existing structures across 
-                Broward County, from Fort Lauderdale to Hollywood, Weston to Plantation, Coral Ridge 
-                to Victoria Park. We coordinate licensed, insured demolition contractors who safely remove 
-                buildings, foundations, and structures with full compliance to Broward County Uniform 
-                Building Permit Applications, Development & Environmental Review (DER), and Statement of 
-                Responsibilities Regarding Asbestos (SRRA) requirements.
-              </p>
-              <p className={styles.description}>
-                Demolition coordination in Broward County ensures proper removal of existing 
-                structures before site work begins. Our network includes licensed, insured demolition 
-                contractors who safely remove buildings, foundations, and structures to prepare sites 
-                for new development, with attention to Broward County building permit requirements, 
-                asbestos surveys, and environmental compliance.
-              </p>
-            </div>
-            <div className={styles.heroImageWrapper}>
-              <Image
-                src="/images/services/demolition-coordination.jpg"
-                alt="Demolition coordination services in Broward County"
-                fill
-                className={styles.heroImage}
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroWithQuote
+        title="Demolition Coordination in Fort Lauderdale, FL"
+        subtitle="Coordination with demolition contractors for removal of existing structures across Broward County, from Fort Lauderdale to Hollywood, Weston to Plantation, Coral Ridge to Victoria Park"
+        backgroundImageUrl="/images/hero/hero-background.png"
+        backgroundImageAlt="Demolition coordination services in Fort Lauderdale, Florida"
+      />
 
       <section className={styles.section}>
         <div className={styles.container}>

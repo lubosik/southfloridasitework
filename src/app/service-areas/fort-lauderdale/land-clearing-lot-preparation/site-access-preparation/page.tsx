@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
+import HeroWithQuote from '@/components/HeroWithQuote'
 import CTABanner from '@/components/CTABanner'
 import { siteConfig } from '@/lib/site-config'
-import { getServiceImagePath } from '@/lib/image-mapping'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
@@ -18,40 +17,12 @@ export const metadata: Metadata = {
 export default function FortLauderdaleSiteAccessPreparationPage() {
   return (
     <main>
-      <section className={styles.hero}>
-        <div className={styles.container}>
-          <h1 className={styles.title}>Site Access Preparation in Fort Lauderdale, FL</h1>
-          <div className={styles.heroContent}>
-            <div>
-              <p className={styles.intro}>
-                Clearing and preparation of access roads and staging areas for construction equipment 
-                and operations across Broward County, from Fort Lauderdale to Hollywood, Weston to 
-                Plantation, Coral Ridge to Victoria Park. We coordinate licensed contractors to efficiently 
-                clear and prepare access roads and staging areas with full compliance to Broward County 
-                Development & Environmental Review (DER), Natural Resource Protection Code compliance, and 
-                storm event protection requirements.
-              </p>
-              <p className={styles.description}>
-                Site access preparation in Broward County ensures proper access for construction 
-                equipment and operations. Our network of licensed contractors coordinates efficient clearing 
-                and preparation of access roads and staging areas that support construction activities, 
-                with attention to Broward County Development & Environmental Review (DER) through ePermits 
-                OneStop, high water table conditions, and storm event protection (100-year, 3-day storm 
-                event for structures; 10-year, 3-day storm event for roadways and parking lots).
-              </p>
-            </div>
-            <div className={styles.heroImageWrapper}>
-              <Image
-                src="/images/services/site-access-preparation.jpg"
-                alt="Site access preparation services in Broward County"
-                fill
-                className={styles.heroImage}
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroWithQuote
+        title="Site Access Preparation in Fort Lauderdale, FL"
+        subtitle="Clearing and preparation of access roads and staging areas for construction equipment and operations across Broward County, from Fort Lauderdale to Hollywood, Weston to Plantation, Coral Ridge to Victoria Park"
+        backgroundImageUrl="/images/hero/hero-background.png"
+        backgroundImageAlt="Site access preparation services in Fort Lauderdale, Florida"
+      />
 
       <section className={styles.section}>
         <div className={styles.container}>
