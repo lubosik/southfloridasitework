@@ -79,9 +79,6 @@ export default function HeroWithQuote({
                 <a href={siteConfig.phone.href} className={styles.phoneCTA}>
                   Call Now: {siteConfig.phone.display}
                 </a>
-                <a href={siteConfig.email.href} className={styles.emailCTA}>
-                  {siteConfig.email.display}
-                </a>
               </div>
             )}
           </div>

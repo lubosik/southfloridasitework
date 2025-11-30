@@ -196,26 +196,22 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: var(--spacing-4) var(--spacing-6);
-  background-color: var(--color-accent-500);
-  color: var(--color-black);
-  font-weight: 700;
-  font-size: var(--font-size-lg);
+  padding: var(--spacing-3) var(--spacing-5);
+  background-color: transparent;
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: var(--font-size-base);
   text-decoration: none;
-  border: none;
+  border: 2px solid var(--color-white);
   border-radius: var(--radius-lg);
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease;
   text-shadow: none;
   white-space: nowrap;
 }
 
 .quoteCTA:hover {
-  background-color: var(--color-accent-600);
-  transform: translateY(-2px);
-}
-
-.quoteCTA:active {
-  transform: translateY(0);
+  background-color: var(--color-white);
+  color: var(--color-primary-900);
 }
 
 .formWrapper {
