@@ -77,51 +77,48 @@ export default function LandGradingSiteGradingPage() {
 
       <section className={`${styles.section} ${styles.sectionAlt}`}>
         <div className={styles.container}>
-          <h2 className={styles.heading}>Land Grading and Site Grading Services</h2>
-          <div className={styles.servicesGrid}>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>House Pad Grading and Building Pads</h3>
-              <p className={styles.serviceDescription}>
-                Precision grading for residential and commercial building pads to achieve proper 
-                elevations, slopes, and compaction required by engineering specifications and 
-                building codes.
-              </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Parking Lot and Driveway Grading</h3>
-              <p className={styles.serviceDescription}>
-                Grading for parking lots, driveways, and access roads with proper slopes for 
-                drainage, ADA compliance, and vehicle accessibility.
-              </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Road and Access Drive Grading</h3>
-              <p className={styles.serviceDescription}>
-                Grading for roads, access drives, and subdivision infrastructure including proper 
-                crown, cross-slopes, and drainage features.
-              </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Rough and Final Grading for New Developments</h3>
-              <p className={styles.serviceDescription}>
-                Complete grading services for new developments including rough grading for initial 
-                site preparation and final grading to precise elevations before building construction.
-              </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Regrading for Drainage Problems</h3>
-              <p className={styles.serviceDescription}>
-                Site regrading to fix existing drainage issues, eliminate standing water, and 
-                redirect water flow away from structures and low-lying areas.
-              </p>
-            </div>
-            <div className={styles.serviceItem}>
-              <h3 className={styles.serviceTitle}>Slope Stabilization and Erosion Control</h3>
-              <p className={styles.serviceDescription}>
-                Grading and stabilization of slopes to prevent erosion, including installation of 
-                erosion control measures and proper drainage to protect slopes during and after 
-                construction.
-              </p>
+          <div className={styles.content}>
+            <h2 className={styles.heading}>Sub-Services</h2>
+            <p className={styles.text}>
+              Explore our specialized land grading and site grading services:
+            </p>
+            <div className={styles.subServicesGrid}>
+              <a href="/services/land-grading-site-grading/house-pad-building-pad-grading/" className={styles.subServiceCard}>
+                <h3 className={styles.subServiceTitle}>House Pad Grading and Building Pads</h3>
+                <p className={styles.subServiceDescription}>
+                  Precision grading for residential and commercial building pads
+                </p>
+              </a>
+              <a href="/services/land-grading-site-grading/parking-lot-driveway-grading/" className={styles.subServiceCard}>
+                <h3 className={styles.subServiceTitle}>Parking Lot and Driveway Grading</h3>
+                <p className={styles.subServiceDescription}>
+                  Grading for parking lots, driveways, and access roads
+                </p>
+              </a>
+              <a href="/services/land-grading-site-grading/road-access-drive-grading/" className={styles.subServiceCard}>
+                <h3 className={styles.subServiceTitle}>Road and Access Drive Grading</h3>
+                <p className={styles.subServiceDescription}>
+                  Grading for roads, access drives, and subdivision infrastructure
+                </p>
+              </a>
+              <a href="/services/land-grading-site-grading/rough-final-grading-developments/" className={styles.subServiceCard}>
+                <h3 className={styles.subServiceTitle}>Rough and Final Grading for New Developments</h3>
+                <p className={styles.subServiceDescription}>
+                  Complete grading services for new developments
+                </p>
+              </a>
+              <a href="/services/land-grading-site-grading/regrading-drainage-problems/" className={styles.subServiceCard}>
+                <h3 className={styles.subServiceTitle}>Regrading for Drainage Problems</h3>
+                <p className={styles.subServiceDescription}>
+                  Site regrading to fix existing drainage issues
+                </p>
+              </a>
+              <a href="/services/land-grading-site-grading/slope-stabilization-erosion-control/" className={styles.subServiceCard}>
+                <h3 className={styles.subServiceTitle}>Slope Stabilization and Erosion Control</h3>
+                <p className={styles.subServiceDescription}>
+                  Grading and stabilization of slopes to prevent erosion
+                </p>
+              </a>
             </div>
           </div>
         </div>

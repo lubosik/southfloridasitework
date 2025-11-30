@@ -304,3 +304,53 @@
   margin: 0;
 }
 
+.subServicesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-4);
+  margin-top: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+  .subServicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .subServicesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.subServiceCard {
+  display: block;
+  background-color: var(--color-white);
+  padding: var(--spacing-6);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+.subServiceCard:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--color-accent-500);
+}
+
+.subServiceTitle {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-primary-900);
+  margin-bottom: var(--spacing-2);
+}
+
+.subServiceDescription {
+  font-size: var(--font-size-base);
+  color: var(--color-grey-600);
+  line-height: 1.6;
+  margin: 0;
+}
+
