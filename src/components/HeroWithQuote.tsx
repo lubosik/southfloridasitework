@@ -58,9 +58,6 @@ export default function HeroWithQuote({
             {subtitle && <p className={styles.subtitle}>{subtitle}</p>}
             {showQuoteForm && (
               <div className={styles.heroCTAs}>
-                <a href={siteConfig.phone.href} className={styles.phoneCTA}>
-                  Call Now: {siteConfig.phone.display}
-                </a>
                 <a
                   href="#quote-form"
                   onClick={(e) => {
@@ -78,6 +75,12 @@ export default function HeroWithQuote({
                   className={styles.quoteCTA}
                 >
                   Get Instant Quote
+                </a>
+                <a href={siteConfig.phone.href} className={styles.phoneCTA}>
+                  Call Now: {siteConfig.phone.display}
+                </a>
+                <a href={siteConfig.email.href} className={styles.emailCTA}>
+                  {siteConfig.email.display}
                 </a>
               </div>
             )}
