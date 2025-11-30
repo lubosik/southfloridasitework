@@ -342,7 +342,7 @@ export default function SwalesDitchesOutfallsPage() {
                 <p className={styles.locationCounty}>Miami-Dade County</p>
                 <span className={styles.locationLink}>View Miami Services →</span>
               </a>
-              <a href="/services/drainage-stormwater-solutions/swales-ditches-outfalls/fort-lauderdale/" className={styles.locationCard}>
+              <a href="/service-areas/fort-lauderdale/drainage-stormwater-solutions/swales-ditches-outfalls/" className={styles.locationCard}>
                 <h3 className={styles.locationTitle}>Fort Lauderdale, FL</h3>
                 <p className={styles.locationCounty}>Broward County</p>
                 <span className={styles.locationLink}>View Fort Lauderdale Services →</span>
