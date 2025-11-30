@@ -94,6 +94,7 @@ export const siteConfig = {
   projectInfo: {
     typicalMinimum: 25000,
     budgetRanges: [
+      { label: 'Under $25,000', value: 'under-25000' },
       { label: '$25,000 - $50,000', value: '25000-50000' },
       { label: '$50,000 - $100,000', value: '50000-100000' },
       { label: '$100,000 - $250,000', value: '100000-250000' },
