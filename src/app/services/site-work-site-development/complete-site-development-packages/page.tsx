@@ -259,7 +259,7 @@ export default function CompleteSiteDevelopmentPackagesPage() {
               location to learn more about site development in your area:
             </p>
             <div className={styles.locationsGrid}>
-              <a href="/services/site-work-site-development/complete-site-development-packages/miami/" className={styles.locationCard}>
+              <a href="/service-areas/miami/site-work-site-development/complete-site-development-packages/" className={styles.locationCard}>
                 <h3 className={styles.locationTitle}>Miami, FL</h3>
                 <p className={styles.locationCounty}>Miami-Dade County</p>
                 <span className={styles.locationLink}>View Miami Services →</span>
