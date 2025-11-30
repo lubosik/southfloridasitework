@@ -401,3 +401,34 @@
   color: var(--color-accent-600);
 }
 
+.locationGroup {
+  background-color: var(--color-white);
+  padding: var(--spacing-6);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.locationGroupTitle {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-primary-900);
+  margin-bottom: var(--spacing-4);
+}
+
+.locationItems {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.locationItems li {
+  font-size: var(--font-size-base);
+  color: var(--color-grey-600);
+  padding: var(--spacing-2) 0;
+  border-bottom: 1px solid var(--color-grey-200);
+}
+
+.locationItems li:last-child {
+  border-bottom: none;
+}
+
