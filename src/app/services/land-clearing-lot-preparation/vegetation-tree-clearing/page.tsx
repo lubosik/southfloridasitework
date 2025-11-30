@@ -297,7 +297,7 @@ export default function VegetationTreeClearingPage() {
               location to learn more about clearing services in your area:
             </p>
             <div className={styles.locationsGrid}>
-              <a href="/services/land-clearing-lot-preparation/vegetation-tree-clearing/miami/" className={styles.locationCard}>
+              <a href="/service-areas/miami/land-clearing-lot-preparation/vegetation-tree-clearing/" className={styles.locationCard}>
                 <h3 className={styles.locationTitle}>Miami, FL</h3>
                 <p className={styles.locationCounty}>Miami-Dade County</p>
                 <span className={styles.locationLink}>View Miami Services →</span>
