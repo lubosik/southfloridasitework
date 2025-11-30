@@ -328,7 +328,7 @@ export default function DebrisHaulingSiteCleanupPage() {
               location to learn more about debris removal services in your area:
             </p>
             <div className={styles.locationsGrid}>
-              <a href="/services/land-clearing-lot-preparation/debris-hauling-site-cleanup/miami/" className={styles.locationCard}>
+              <a href="/service-areas/miami/land-clearing-lot-preparation/debris-hauling-site-cleanup/" className={styles.locationCard}>
                 <h3 className={styles.locationTitle}>Miami, FL</h3>
                 <p className={styles.locationCounty}>Miami-Dade County</p>
                 <span className={styles.locationLink}>View Miami Services →</span>
