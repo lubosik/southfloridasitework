@@ -278,7 +278,7 @@ export default function SubdivisionInfrastructurePage() {
                 <p className={styles.locationCounty}>Broward County</p>
                 <span className={styles.locationLink}>View Fort Lauderdale Services →</span>
               </a>
-              <a href="/services/site-work-site-development/subdivision-infrastructure/west-palm-beach/" className={styles.locationCard}>
+              <a href="/service-areas/west-palm-beach/site-work-site-development/subdivision-infrastructure/" className={styles.locationCard}>
                 <h3 className={styles.locationTitle}>West Palm Beach, FL</h3>
                 <p className={styles.locationCounty}>Palm Beach County</p>
                 <span className={styles.locationLink}>View West Palm Beach Services →</span>
