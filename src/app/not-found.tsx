@@ -32,12 +32,7 @@ export default function NotFound() {
           textDecoration: 'none',
           transition: 'background-color 0.2s ease',
         }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.backgroundColor = 'var(--color-accent-600)'
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.backgroundColor = 'var(--color-accent-500)'
-        }}
+        className="hover:bg-accent-600"
       >
         Return to Homepage
       </a>
