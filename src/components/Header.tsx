@@ -50,11 +50,14 @@ export default function Header() {
   // Prevent body scroll when menu is open
   useEffect(() => {
     if (isMobileMenuOpen) {
+      document.body.classList.add('menuOpen')
       document.body.style.overflow = 'hidden'
     } else {
+      document.body.classList.remove('menuOpen')
       document.body.style.overflow = ''
     }
     return () => {
+      document.body.classList.remove('menuOpen')
       document.body.style.overflow = ''
     }
   }, [isMobileMenuOpen])
@@ -136,38 +139,70 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
-      <div
-        id="mobile-menu"
-        ref={mobileMenuRef}
-        className={`${styles.mobileMenu} ${isMobileMenuOpen ? styles.mobileMenuOpen : ''}`}
-        aria-hidden={!isMobileMenuOpen}
-      >
-        <nav className={styles.mobileNav} aria-label="Mobile navigation">
-          <ul className={styles.mobileNavList}>
-            {navLinks.map((link, index) => (
-              <li key={link.href}>
-                <a
-                  href={link.href}
-                  className={styles.mobileNavLink}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  ref={index === 0 ? firstFocusableRef : undefined}
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-          <a
-            href="#quote-form"
-            onClick={handleQuoteClick}
-            className={styles.mobileQuoteButton}
-            ref={lastFocusableRef}
-          >
-            Get Free Quote
-          </a>
-        </nav>
-      </div>
+      {/* Mobile Menu Overlay */}
+      {isMobileMenuOpen && (
+        <div
+          id="mobile-menu"
+          ref={mobileMenuRef}
+          className={styles.mobileMenuOverlay}
+          aria-hidden={!isMobileMenuOpen}
+          onClick={(e) => {
+            // Close menu when clicking on overlay background
+            if (e.target === e.currentTarget) {
+              setIsMobileMenuOpen(false)
+            }
+          }}
+        >
+          <div className={styles.mobileMenuPanel}>
+            {/* Close Button */}
+            <button
+              className={styles.mobileMenuClose}
+              onClick={() => setIsMobileMenuOpen(false)}
+              aria-label="Close mobile menu"
+            >
+              <span className={styles.closeIcon}>×</span>
+            </button>
+
+            {/* Logo */}
+            <div className={styles.mobileMenuLogo}>
+              <Image
+                src="/images/logo.png"
+                alt="South Florida Site Work"
+                width={200}
+                height={60}
+                className={styles.mobileLogoImage}
+                priority
+              />
+            </div>
+
+            {/* Navigation Links */}
+            <nav className={styles.mobileNav} aria-label="Mobile navigation">
+              <ul className={styles.mobileNavList}>
+                {navLinks.map((link, index) => (
+                  <li key={link.href}>
+                    <a
+                      href={link.href}
+                      className={styles.mobileNavLink}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      ref={index === 0 ? firstFocusableRef : undefined}
+                    >
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+              <a
+                href="#quote-form"
+                onClick={handleQuoteClick}
+                className={styles.mobileQuoteButton}
+                ref={lastFocusableRef}
+              >
+                Get Free Quote
+              </a>
+            </nav>
+          </div>
+        </div>
+      )}
     </header>
   )
 }
