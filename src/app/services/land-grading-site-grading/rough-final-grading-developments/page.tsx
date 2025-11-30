@@ -306,7 +306,7 @@ export default function RoughFinalGradingDevelopmentsPage() {
                 <p className={styles.locationCounty}>Broward County</p>
                 <span className={styles.locationLink}>View Fort Lauderdale Services →</span>
               </a>
-              <a href="/services/land-grading-site-grading/rough-final-grading-developments/west-palm-beach/" className={styles.locationCard}>
+              <a href="/service-areas/west-palm-beach/land-grading-site-grading/rough-final-grading-developments/" className={styles.locationCard}>
                 <h3 className={styles.locationTitle}>West Palm Beach, FL</h3>
                 <p className={styles.locationCounty}>Palm Beach County</p>
                 <span className={styles.locationLink}>View West Palm Beach Services →</span>
