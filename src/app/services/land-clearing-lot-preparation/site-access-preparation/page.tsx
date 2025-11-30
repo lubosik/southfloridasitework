@@ -320,7 +320,7 @@ export default function SiteAccessPreparationPage() {
               location to learn more about access preparation services in your area:
             </p>
             <div className={styles.locationsGrid}>
-              <a href="/services/land-clearing-lot-preparation/site-access-preparation/miami/" className={styles.locationCard}>
+              <a href="/service-areas/miami/land-clearing-lot-preparation/site-access-preparation/" className={styles.locationCard}>
                 <h3 className={styles.locationTitle}>Miami, FL</h3>
                 <p className={styles.locationCounty}>Miami-Dade County</p>
                 <span className={styles.locationLink}>View Miami Services →</span>
