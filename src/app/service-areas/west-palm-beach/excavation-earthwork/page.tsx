@@ -14,6 +14,8 @@ export const metadata: Metadata = {
   },
 }
 
+// Page updated to ensure proper Vercel deployment
+
 export default function WestPalmBeachExcavationEarthworkPage() {
   return (
     <main>
