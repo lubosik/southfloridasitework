@@ -130,3 +130,13 @@ Count: 10 items (2 high-volume sitewide: address and schema). The footer referra
 
 - Contents of the live `.htaccess` (not readable). Behaviour above is from probing.
 - Which email the live SFSW Web3Forms key delivers to (assumed support@ because leads arrive).
+
+## WS6C prep (28 Oct 2026): live snapshot taken
+
+Full read-only snapshot of the live site in `snapshot-live-2026-10-28/` (see its README for method). GET requests only; no form submitted; nothing changed live.
+
+- 354 URLs requested: all 228 sitemap URLs 200, 87 legacy seeds 200, 38 more from links (30 x 200, 5 x 301, 3 x 404). 346 distinct 200 HTML pages: 216 real, 12 `?page=` copies listed in the sitemap, 117 legacy JS-redirect pages (87 known plus 30 Florida Keys ones linked from live `/services/{cat}/{sub}/` pages).
+- Trailing slash 301 on all 332 probed pages; www and http are separate 301 hops; `/index.html`, `//services/` and `/404/` serve 200 duplicates; `/_next/` shows a directory listing; unknown URLs get LiteSpeed's 404 page.
+- 3 internal links point to legacy Miami URLs that 404.
+- Draft rules: `inferred-_redirects` (333 live-parity 301s, 234 commented RECOMMENDED legacy 301s) and `inferred-_headers` (5 Cache-Control rules). Inferred from probes; confirm against `.htaccess` when the owner provides it.
+- Size about 47 MB, all committed.

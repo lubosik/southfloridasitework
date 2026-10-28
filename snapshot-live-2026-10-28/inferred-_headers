@@ -1,0 +1,53 @@
+# inferred-_headers for southfloridasitework.com
+# INFERRED from live response headers on 2026-10-28 (manifest.json, probes.json). Confirm against .htaccess when the owner provides it.
+# Target: Cloudflare Workers static assets `_headers` file. Limits (docs): 100 header rules, 2,000 characters per line,
+#   one splat per path. "Redirects execute before headers". "! Header" detaches a header.
+# Cloudflare adds by default: Content-Type from the file extension, ETag, CF-Cache-Status, and
+#   "Cache-Control: public, max-age=0, must-revalidate" on assets that match no Cache-Control rule.
+# Lines starting with "# RECOMMENDED:" are not live behaviour and need approval.
+#
+# Live response headers observed (excluding Date, Content-Length, Last-Modified, Keep-Alive):
+#   HTML 200: accept-ranges: bytes; content-encoding: gzip; content-type: text/html; server: LiteSpeed; vary: Accept-Encoding; x-turbo-charged-by: LiteSpeed
+#   HTML 404: cache-control: private, no-cache, no-store, must-revalidate, max-age=0; content-type: text/html; pragma: no-cache; server: LiteSpeed; x-turbo-charged-by: LiteSpeed
+#   redirect 301: content-type: text/html; server: LiteSpeed; x-turbo-charged-by: LiteSpeed
+#   Assets, by path and Cache-Control (count):
+#     /404.html  Cache-Control: None  (1)
+#     /_next/static/chunks  Cache-Control: None  (195)
+#     /_next/static/css  Cache-Control: public, max-age=604800  (188)
+#     /_next/static/media  Cache-Control: public, max-age=604800  (30)
+#     /favicon.ico  Cache-Control: public, max-age=604800  (1)
+#     /favicon.png  Cache-Control: public, max-age=604800  (1)
+#     /images  Cache-Control: public, max-age=604800  (48)
+#     /sitemap-locations.xml  Cache-Control: None  (1)
+#     /sitemap-services.xml  Cache-Control: None  (1)
+#     /sitemap.xml  Cache-Control: None  (1)
+#   Live assets with a Cache-Control also send a matching Expires header. Cache-Control takes precedence, so Expires is not ported.
+
+# LIVE PARITY: /_next/static/css/*
+/_next/static/css/*
+  Cache-Control: public, max-age=604800
+
+# LIVE PARITY: /_next/static/media/*
+/_next/static/media/*
+  Cache-Control: public, max-age=604800
+
+# LIVE PARITY: /favicon.ico
+/favicon.ico
+  Cache-Control: public, max-age=604800
+
+# LIVE PARITY: /favicon.png
+/favicon.png
+  Cache-Control: public, max-age=604800
+
+# LIVE PARITY: /images/*
+/images/*
+  Cache-Control: public, max-age=604800
+
+# LIVE: /_next/static/chunks/*.js and all HTML are sent with no Cache-Control. Cloudflare's default
+# (public, max-age=0, must-revalidate) is close to that. No rule needed for parity.
+# LIVE: no security headers and no CSP (header or meta) on any page.
+# RECOMMENDED: /_next/static/*
+# RECOMMENDED:   Cache-Control: public, max-age=31536000, immutable
+# RECOMMENDED: /*
+# RECOMMENDED:   X-Content-Type-Options: nosniff
+# RECOMMENDED:   Referrer-Policy: strict-origin-when-cross-origin
