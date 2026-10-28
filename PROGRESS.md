@@ -140,3 +140,19 @@ Full read-only snapshot of the live site in `snapshot-live-2026-10-28/` (see its
 - 3 internal links point to legacy Miami URLs that 404.
 - Draft rules: `inferred-_redirects` (333 live-parity 301s, 234 commented RECOMMENDED legacy 301s) and `inferred-_headers` (5 Cache-Control rules). Inferred from probes; confirm against `.htaccess` when the owner provides it.
 - Size about 47 MB, all committed.
+
+## WS6A and 6C (28 Oct 2026): rebuilt on the FCC engine, Cloudflare preview ready (CHECKPOINT 4)
+
+The site is now built in the monorepo at `fcc-lead-engine/sites/sitework` (branch
+`claude/funny-wright-fgsyrs`), not in this repo. This repo keeps the snapshot as the parity baseline
+and rollback reference. Nothing live has changed; DNS is untouched.
+
+- Preview: https://fcc-sitework-preview.lubosikongwa.workers.dev (noindex).
+- Every one of the 216 indexable live pages is imported from `snapshot-live-2026-10-28/` as an engine
+  "legacy page": same URL, title, H1, description, canonical and robots. Body text is unchanged except
+  the mandatory rule 1 to 3 changes, each recorded per page (see
+  `fcc-lead-engine/design/sitework/parity/body-text-changes.md`).
+- The owner's cPanel export (28 Oct 2026) confirmed the snapshot: 333 of 333 HTML files are byte for
+  byte identical, the images are the same files, and `.htaccess` holds one rule (http and www to the
+  https apex). That rule becomes a Cloudflare zone rule; everything else is in `_redirects`.
+- Cutover steps for the owner: `fcc-lead-engine/sites/sitework/CUTOVER.md`.
